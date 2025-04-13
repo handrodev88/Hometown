@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header   {
+    position: relative; /* important for absolute positioning of children */
+    background-image: url(/images/jimmy-woo-GjIT0m2yilw-unsplash.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: 25% 25%;
+    padding: 100px 0 40px 0;
+    text-align: center; /* centers inline content if needed */
+    color: white;
+  }
+
+#title {
+       background: rgb(12, 35, 64); /* Yankee Blue, 80% opacity */
+       padding: 10px 20px;
+       border-radius: 5px;
+       margin: 20px 10px 20px 10px;
+       font-size: 5rem;
+  }
+
+
+  #word {
+    margin: 0;
+    background: rgb(12, 35, 64);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 2.3rem;
+  }
+
+
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  
+}
+.wrapper{
+  text-align: center;
+}
+
+
+.column {
+  display: flex;
+  justify-content: space-between; 
+  color: rgb(12, 35, 64);
+
+}
